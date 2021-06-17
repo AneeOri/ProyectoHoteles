@@ -1,0 +1,125 @@
+/*@media only screen and (min-width: 600px) {*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: box-sizing;
+}
+.hotelCards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  padding-top: 1%;
+  height: 650px;
+  max-width: 400px;
+  box-shadow: 3px 3px 7px 0px rgba(197, 197, 197, 0.73);
+}
+.imagen-card {
+  max-width: 380px;
+  padding-left: 3vw;
+}
+.titulo {
+  padding-top: 5px;
+}
+.info {
+  display: flex;
+  text-align: left;
+  padding-top: 3%;
+  padding-left: 10%;
+  width: 90%;
+  height: 20%;
+  overflow: auto;
+  overflow-anchor: 1px;
+}
+.location {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  padding-left: 10%;
+  padding-bottom: 2%;
+}
+.icono-pin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  margin-left: 35px;
+  z-index: 1;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(49, 126, 226);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.room-price {
+  display: flex;
+  height: 50px;
+  width: 70%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+  justify-content: space-between;
+}
+.rooms-info {
+  display: flex;
+}
+.icon-white {
+  color: white;
+}
+.icon-gray {
+  color: rgba(255, 255, 255, 0.294);
+}
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  margin-left: 35px;
+  z-index: 1;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(49, 126, 226);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.cont-bookButton {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  height: 50px;
+}
+.bookButton {
+  width: 100%;
+  height: 100%;
+  background-color: #29ebcd;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.bookButton:hover {
+  background-image: linear-gradient(
+    150deg,
+    rgb(54, 152, 243) 0%,
+    rgb(235, 245, 242) 100%
+  );
+  color: white;
+}
+.noResultImg {
+  height: 50px;
+}
+.info::-webkit-scrollbar {
+  width: 5px;
+}
+.info::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+/*}*/
